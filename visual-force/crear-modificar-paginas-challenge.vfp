@@ -1,0 +1,7 @@
+<apex:page showHeader="false" sidebar="false" >
+    
+    <apex:image url = "https://developer.salesforce.com/files/salesforce-developer-network-logo.png" />
+    <br/><br/><br/>
+    <apex:image url = "https://media-exp1.licdn.com/dms/image/C5603AQGVetjKlHZxMg/profile-displayphoto-shrink_800_800/0/1618237812682?e=1637798400&v=beta&t=psuADaEVBpV85uUaOhJkHRY7neZf6JNu9Oad4d3xrqw" />
+    
+</apex:page>
