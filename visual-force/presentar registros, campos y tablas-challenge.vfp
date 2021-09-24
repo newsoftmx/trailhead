@@ -1,0 +1,11 @@
+    <apex:page standardController="Opportunity" >
+        <apex:pageBlock title="Opportunity Summary">
+            <apex:pageBlockSection >
+                Opportunity Name: <apex:outputField value="{! Opportunity.Name }"/> <br />
+                Amount:  <apex:outputField value="{! Opportunity.Amount } " /> <br/>
+                Close Date:  <apex:outputField value="{! Opportunity.CloseDate }"/> <br/>
+                ID Name of the Opportunity:  <apex:outputField value="{! Opportunity.AccountId }"/> <br/>
+                Account Name of the Opportunity:  <apex:outputField value="{! Opportunity.Account.Name }"/> <br/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:page>

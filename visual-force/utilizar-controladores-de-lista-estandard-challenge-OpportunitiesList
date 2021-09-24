@@ -1,0 +1,10 @@
+<apex:page standardController="Opportunity" recordSetVar="Opportunities" >
+    <!-- La siguiente variable value="es el nombre el objeto"-->
+    <apex:repeat var="opportunitiesList" value="{!Opportunity}">
+        <li>
+            <apex:outputLink value="/{!opportunitiesList.id}">
+                {!opportunitiesList.Name}
+            </apex:outputLink>
+        </li>
+    </apex:repeat>
+</apex:page>
