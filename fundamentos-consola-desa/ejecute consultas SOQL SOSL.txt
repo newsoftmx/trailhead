@@ -1,0 +1,11 @@
+SELECT Name, Phone, Email, Title FROM Contact
+                                 WHERE (Department = 'Specialty Crisis Management')
+								 
+								 
+Contact[] theseContacts = [SELECT Name, Phone, Email, Description FROM Contact
+                           WHERE (Department='Specialty Crisis Management')
+                           ORDER BY Name];
+// Log a count of how many contacts were found
+System.debug(theseContacts.size() + ' contact(s) returned.');
+// Log all values in the array of contacts
+System.debug(theseContacts);
